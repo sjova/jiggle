@@ -51,3 +51,4 @@ alias stayoff='pkill jiggle'
 - While jiggle runs, the Mac and the display do not go to sleep.
 - After `inactivity` seconds without input, jiggle moves the cursor 16 px left and right.
 - Typing, scrolling, and clicks count as input, so the cursor does not move while you type.
+- When the Mac runs on battery and the charge is at 20% or lower, jiggle exits so the Mac can sleep again. On AC power the charge is not checked.
